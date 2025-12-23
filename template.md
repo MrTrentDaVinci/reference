@@ -88,3 +88,28 @@ Rules:
 2. **Do not assume facts; if key info is missing, ask clarifying questions**
 3. Include reasoning or insight, not marketing copy
 4. Mention constraints, hypotheses, or open questions where relevant
+
+## Company: 
+### Domain
+- 
+
+### Roles of Interest
+- 
+
+### Why This Company
+- 
+
+### What to Emphasize
+- 
+
+### What NOT to Emphasize
+- Pure research
+- Heavy coding ownership
+- 
+
+### Application Mode
+(Formal application and/or targeted outreach)
+- 
+
+### Status
+- 
