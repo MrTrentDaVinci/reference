@@ -1,4 +1,4 @@
-https://raw.githubusercontent.com/MrTrentDaVinci/reference/main/index.md
+https://raw.githubusercontent.com/MrTrentDaVinci/reference.md/main/index.md
 
 # LLM Reference Index
 - [Living Summaries](https://raw.githubusercontent.com/MrTrentDaVinci/reference/main/livingsummaries.md)
