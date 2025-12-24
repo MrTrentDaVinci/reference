@@ -1,8 +1,8 @@
-Architectural System Design (ASD)
-Goal / Vision
+# Architectural System Design (ASD)
+## Goal / Vision
 Develop a rigorous, evidence-grounded process to translate ambiguous organizational intent into safe, constrained, and explainable architectural plans that deliver measurable value inside real companies without requiring unsafe automation.
 
-#Problem Statement
+# Problem Statement
 Most AI/architectural initiatives fail because they:
 
 Start from idealized goals without grounding in existing systems, workflows, constraints, and declared properties
@@ -10,7 +10,7 @@ Introduce solutions before fully decomposing the decision space and risks
 Hide behind frameworks, vendors, or code instead of exposing reasoning
 Over-automate high-stakes decisions, creating unexplainable black boxes or increased risk
 Lack artifacts that build trust with stakeholders who must approve and own the outcome
-System / Approach
+# System / Approach
 A structured, append-only "Living Intent & Decision Document" with 12 fixed sections:
 
 Document Metadata – tracks sources, scope, assumptions
