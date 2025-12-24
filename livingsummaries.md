@@ -12,7 +12,7 @@ https://raw.githubusercontent.com/MrTrentDaVinci/reference/main/livingsummaries.
 1. ASD
 2. Golden SLM 
 3. Tag
-4. System Design Desicion Framework
+4. System Design Decision Framework
 5. Email Routing
 6. Document Processing
 7. SCIS
