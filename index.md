@@ -1,18 +1,10 @@
 https://raw.githubusercontent.com/MrTrentDaVinci/reference/main/index.md
 
-# LLM Reference Index
+Here are the optimized, LLM-friendly links:
 
-- **Living Summaries** – detailed project records and reasoning logs  
-  https://raw.githubusercontent.com/MrTrentDaVinci/reference/main/livingsummaries.md
+Index (Entry Point): https://raw.githubusercontent.com/MrTrentDaVinci/reference/main/index.md
+(This currently works and contains correct internal raw links to the others.)
+Living Summaries: https://raw.githubusercontent.com/MrTrentDaVinci/reference/main/livingsummaries.md
+Company & Role Tracking: https://raw.githubusercontent.com/MrTrentDaVinci/reference/main/tracking.md
+Project Templates: https://raw.githubusercontent.com/MrTrentDaVinci/reference/main/template.md
 
-- **Company & Role Tracking** – companies you’re targeting, roles, why fit  
-  https://raw.githubusercontent.com/MrTrentDaVinci/reference/main/tracking.md
-
-- **Project Templates** – templates for resume, article, and repo outputs  
-  https://raw.githubusercontent.com/MrTrentDaVinci/reference/main/template.md
-
-
-# LLM Reference Index 
-- [Living Summaries](https://raw.githubusercontent.com/MrTrentDaVinci/reference/main/livingsummaries.md) 
-- [Company & Role Tracking](https://raw.githubusercontent.com/MrTrentDaVinci/reference/main/tracking.md) 
-- [Project Templates](https://raw.githubusercontent.com/MrTrentDaVinci/reference/main/template.md)
