@@ -1,5 +1,5 @@
-##Architectural System Design (ASD)
-#Goal / Vision
+Architectural System Design (ASD)
+Goal / Vision
 Develop a rigorous, evidence-grounded process to translate ambiguous organizational intent into safe, constrained, and explainable architectural plans that deliver measurable value inside real companies without requiring unsafe automation.
 
 #Problem Statement
