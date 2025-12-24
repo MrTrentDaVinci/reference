@@ -16,7 +16,8 @@ https://raw.githubusercontent.com/MrTrentDaVinci/reference/main/livingsummaries.
 5. Email Routing
 6. Document Processing
 7. SCIS
-8. 
+8. Program Builder
+9. 
 
 ...
 1.
@@ -1036,4 +1037,211 @@ It underpins:
 - Enterprise AI systems requiring auditability and determinism
 
 8.
+## ProgramBuilder (PB) — Hybrid LLM–SLM Software Assembly System
+
+### One-Sentence Definition
+ProgramBuilder (PB) is a deterministic software construction system where external LLMs design intent, a non-creative SLM mechanically assembles code from RGB building blocks with embedded rules, and Agent Matrices validate both specification and output—ensuring correctness, safety, and repeatability by design.
+
+---
+
+### System Identity
+- **Name:** ProgramBuilder (PB)
+- **Type:** Python desktop application (PyQt6 GUI)
+- **Role:** Automated software assembly from structured specifications
+- **Foundation:** SCIS 4.x (maps-first, ID-based, deterministic)
+- **Core Insight:** Design is creative; assembly must not be
+
+---
+
+### Core Philosophy
+PB enforces a strict separation of concerns:
+
+- **External LLMs** design *what* should be built
+- **Users** approve intent and fixes
+- **SLM Orchestrator** assembles *how* it is built — mechanically
+- **Agent Matrices** validate structure and correctness
+- **PB** executes, tests, reports, and applies approved fixes
+
+At no point is creative reasoning allowed inside the assembly engine.
+
+---
+
+### High-Level Flow
+External LLM + User  
+→ Design **Development Summary (DS)** using RGB references  
+→ **Agent Matrix 1** validates DS structure & rule inheritance  
+→ **SLM Orchestrator** assembles code with enforced rules  
+→ **Agent Matrix 2** validates generated code  
+→ **Testing**  
+→ Success or controlled fix cycle
+
+---
+
+### Key Innovation: Rules Embedded in RGBs
+PB’s defining breakthrough is **rule inheritance via RGB selection**.
+
+- Every RGB represents an atomic code element
+- Each RGB carries **embedded enforced rules**
+- Selecting an RGB automatically inherits its rules
+- Rules do **not** need to be manually listed in the DS
+- Only *overrides* (extended rules only) may be specified
+
+This eliminates forgotten rules, hallucinated constraints, and implicit assumptions.
+
+---
+
+### RGB System
+- **RGB (0–255)** = atomic code element
+- **Four Zones:**
+  - 0–63: Commands / Meta
+  - 64–127: Keywords & structural syntax
+  - 128–191: Pre-assembled components
+  - 192–255: Utilities & auxiliaries
+- Each RGB includes:
+  - Code template
+  - Parameters
+  - Embedded rules (core / extended)
+  - Validation stage
+
+RGBs are the *only* building blocks SLM may use.
+
+---
+
+### Development Summary (DS)
+PB consumes a strict **11-section Development Summary**, which defines:
+
+- Project metadata
+- Dependencies
+- SCIS phase/file structure
+- Component definitions (via RGB lists)
+- Dependency graph
+- Build order
+- Validation & testing requirements
+- Mandatory components
+- Final metadata & checksums
+
+The DS specifies **intent**, not assembly instructions.
+
+---
+
+### Rule System
+#### Core Rules (🔒)
+- Safety-, correctness-, and security-critical
+- Never configurable
+- Always enforced
+
+#### Extended Rules (⚙️)
+- Quality, style, or project-specific
+- Configurable via DS Section 1
+- May be auto-applied by SLM
+
+Rules are enforced based on:
+- Their declared role
+- Their declared validation stage
+- Their RGB origin
+
+---
+
+### Agent Matrix Architecture
+#### Agent Matrix 1 — Specification Validator
+Validates:
+- DS structure and JSON integrity
+- RGB existence and zone correctness
+- Automatic rule inheritance
+- Allowed rule overrides (extended only)
+- SCIS coordinates and component IDs
+- Dependency integrity and mandatory components
+
+Rejects invalid specs before assembly begins.
+
+#### Agent Matrix 2 — Code Validator
+Validates:
+- Python syntax
+- All inherited rules
+- Core rule compliance
+- Extended rule compliance (per mode)
+- Naming, indentation, security, structure
+- Alignment with DS intent
+
+Reports violations with **RGB + rule context**.
+
+---
+
+### SLM Orchestrator (Inside PB)
+The SLM is **mechanical by design**.
+
+**It DOES:**
+- Fetch RGB templates and embedded rules
+- Substitute parameters
+- Auto-generate docstrings, headers, markers
+- Enforce indentation, naming, imports
+- Validate syntax
+- Apply allowed rule overrides
+
+**It NEVER:**
+- Chooses RGBs
+- Designs logic
+- Adds features
+- Overrides core rules
+- Makes architectural decisions
+
+---
+
+### Build–Test–Fix Cycle
+1. External LLM designs DS
+2. Agent Matrix 1 validates spec
+3. SLM assembles code
+4. Agent Matrix 2 validates output
+5. PB runs tests
+6. If failure:
+   - Error reports include RGB + rule origin
+   - User + LLM design a fix spec
+   - Cycle repeats deterministically
+
+---
+
+### Determinism Guarantees
+PB guarantees:
+- No hallucinated rules
+- No implicit structure
+- No unsafe edits
+- No creative assembly
+- No silent failures
+
+Given the same DS and RGB database, PB produces the same result.
+
+---
+
+### User Interface (PyQt6)
+- Section-based DS input
+- Validation and assembly progress
+- Rule inheritance visibility
+- Error reports with copyable RGB/rule context
+- Session resume and auto-save
+
+The GUI is an observability surface, not a decision-maker.
+
+---
+
+### Relationship to SCIS
+- PB **implements SCIS principles**
+- SCIS defines structure, phases, IDs, and determinism
+- PB is the **execution engine** for SCIS-compliant software construction
+- Agent Matrices act as SCIS enforcement points
+
+PB cannot violate SCIS by design.
+
+---
+
+### Strategic Role
+ProgramBuilder is not a code generator.
+
+It is a **deterministic compiler of intent**, designed so that:
+- LLMs can participate safely
+- Humans retain authority
+- Software can be rebuilt, audited, and evolved without loss of meaning
+
+PB turns SCIS from theory into an operational system.
+
+9.
 
